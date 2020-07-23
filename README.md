@@ -16,7 +16,7 @@ function verifyBaccarat(hash, salt): gameResult {
 }
 ```
 
-When the makeHashList() function is called, given the hash and salt, it generates 52 * 8 hashes by hashing the previous hash. Then, makeShoe() function makes the shuffled eight-deck shoe with the hash list using the well-known Fisher–Yates shuffle algorithm. When the simulateBaccarat() function is called, it proceeds throughout the multiple steps until the shoe ends. For verification of a game result with your hash and salt, please refer to Verify Baccarat.
+When the makeHashList() function is called, given the hash and salt, it generates 52 * 8 hashes by hashing the previous hash. Then, makeShoe() function makes the shuffled eight-deck shoe with the hash list using the well-known Fisher–Yates shuffle algorithm. When the simulateBaccarat() function is called, it proceeds throughout the multiple steps until the shoe ends.
 
 **UC Casino Foundation**
 https://uccasino.org
